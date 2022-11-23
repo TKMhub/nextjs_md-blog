@@ -26,7 +26,7 @@ export default function Home( {allPostsData }) {
       <Head><title>{siteTitle}</title></Head>
       <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
         <p>自由にシステムを操りたい。そんな自分になれるように日々学習を続けています。</p>
-        <h2>📝エンジニアのブログ</h2>
+        <h2>エンジニアのNEXTjs勉強ブログ</h2>
         <div className={home.grid}>
           {allPostsData.map(({id, title, date, thumbnail}) => (
             <article key={id}>
